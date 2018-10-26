@@ -8,7 +8,7 @@ clc;
 % y = x^2 \x in [0,1]
 
 m = 1000; % Numero di punti sull'asse delle x
-n = 30; % Numero di campioni usato
+n = 10; % Numero di campioni usato
 
 sigma = 0.1; % Varianza del rumore
 
@@ -28,7 +28,7 @@ plot(X,Y,'ob'); % Disegno i campioni come punti
 
 % Costruisco il polinomio regressore
 
-p = 30; % Grado della funzione regressore usata per la stima
+p = 3; % Grado della funzione regressore usata per la stima
 
 A = [];
 for i = 0:p
