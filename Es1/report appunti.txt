@@ -1,0 +1,5 @@
+% analysis change contemporary sigma and numer of samples --> put also results, try to put some comments
+
+% high degree i risk bad result but to low i risk too simple solution
+
+lambda i try to regularize my solution using --> similar to degree of the polyn. --> more regularity
