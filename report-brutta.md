@@ -33,18 +33,50 @@ Con l'uso del $ bias $ \lambda cerco di regolarizzare il mio polinomio: in sosta
 ## Terzo esercizio -> kernel methods
 Nel caso multidimensionale siamo limitati reegressioni di tipo polinomiale a causa della maledizione della dimensionalità,per questo utilizziamo metodi kernel, in particolare kernel gaussiano.
 
-Usa due hyperparameters: lambda che regolariza la soluzione-> finding a model which is smooth 
+Usa due hyperparameters: 
+- lambda che regolariza la soluzione -> consente di trovare un modello che sia smooth 
+- i 3 hyperparameters del kernel, in questo caso si tiene conto solo di gamma: parametro che regola la no linearità della soluzione
 
-3 hyperparameters in this case is only gamma regulats the non linearity of the solution  
+ci sono combinazioni di lamda e gamma che più o meno portano alla stessa soluzione
 
-ci sono ombinazioni di lamda e gamma che portano alla stessa soluzione
+Quindi labda e gamma sono parametri non completamente disconnessi, si possono trovare più o meno i soliti modelli con valori differenti di queste quantità.
 
-parametri non completamente disconnessi in questo si trovano più o meno i soliti modelli con valori differenti di questi parametri
 
-best values
+Come trovare i valori migliori di labda e gamma:
 
-validation procedure
+We find best values of hyperparmeters through validation procedure (split the data, create the model with part of the data, and test the quality of hyperparmeters on a set of data that are not used during the model creation), the best combination of hypers is the one that minimize the error on the validation set( --> the set of data not used for creating the model)
 
-the one that minimize the error on the validation set(the set of data not used for creating the model)
+La cosa migliore da fare è mediare i risultati.
+Lo splitting dei dati non va fatto solo una volta, ma va ripetuto perché con una singola reliazzazione la varianza è più alta, ma se si prende la media sono più sicuro che il mio stimatore sia vicino alla media reale.
 
-best thing to do is to average the result -> non solo dividere i dati 1 volra sola ma ripetere and take the average outcome -> my estimator is more close to the actual real value
+Osservazione:
+il loop su k è messo come primo loop nella nostra implementazione (mettendolo all'interno potrei evitare di mantenere la matrice di tutti gli errori) perché la mia stima con k all'interno sarebbe soggetta a 2 tipi di varianza: una varianza dovuta allo stimatore stesso che non si può eliminare, l'altra è la varianza di come campiono il learning set e il validation set. Rischio di selezionare cattivi lamba e gamma perché la mia soluzione è determinata dalla varianza della qualità dello splitting. Scrivendo il codice come lo abbiamo scritto la splitting part è sempre la stessa per ogni gamma e lambda e questo riduce la varianza del mio stimatore.
+
+Ultima osservazione: Il grafico, anche aumentando gamma, non passa da tutti i punti a causa della precisione a 64 bit che non è in grado di raggiungerli tutti.
+
+
+## Real world problem
+Affrontiamo come ultimo lab un problema del mondo reale.
+
+Dopo aver compreso il problema e capito che metodo usare per risolverlo, procedo controllando i dati nel dataset:
+
+- Categorical features
+- Missing values
+- Numerical problems
+
+Normalizzo i dati in modo che ogni feature abbia lo stesso peso nella soluzione.
+
+Controllo la distribuzione dei dati, controllando le varie feature controllo che possibilmente abbiano una distribuzione gaussiana: la distribuzione gaussiana indica che sono dati derivanti dalla natura.
+
+Osserviamo che durante il calcolo si tengono 2 tipi di errori: 
+- errore sulla validazione: usato per ottimizzare gamma e lambda
+- errore sul test: mi dice che se prendo i dati faccio learning con quelle particulari gamma e lambda ottengo un modello con quel particolare ubiased error
+
+Per verificare la bontà del modello non basta un singolo parametro (errore ad esempio), quindi stampo uno scatter plot: x axis -> true value, y axis -> prediction
+Caso ideale: c'è una linea, quindi i valori coincidono esattamente
+Nel caso reale: c'è una bolla, si forma un elipsoide intorno alla linea dritta
+Utilizzare più dati per il learning può implementare la qualità della predizione, possiamo quindi cambiare le percentuali
+
+Notiamo che lambda_best = 10^-4 e gamma_best = 2.2122
+Lambda indica la smothness del modello e gamma ne indica la non linearità, ma di per sè non possiamo valutare se siano grandi o piccoli.
+Per valutare se gamma sia grande o piccolo devo valutare la dimensionalità dello spazio, se sono un uno spazio a bassa dimensionalità 2 probabilmente è grande ma in uno spazio a grande dimensionalità probabilmente è piccolo, a sua volta lambda dipende dalla cardinalità dello spazio, accade che se abbiamo numeri piccoli in w, lambda sarà grande e quindi regolarizzo molto la soluzione.

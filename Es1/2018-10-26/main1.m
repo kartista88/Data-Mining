@@ -7,14 +7,18 @@ D = load('wine-red.csv');
 
 %%
 % 1 - capire il problema
-% spiegare cos'è e come mai può essere svolto in qyiel modo
-% 2 - gestire categorical feature
+% spiegare cos'ï¿½ e come mai puï¿½ essere svolto in qyiel modo
+% 2 - dati
+% gestire categorical feature
+% missing values
+% numerical problems
+% 
 % X1 \in [0 - 10^4]
 % X2 \in [0 - 10^-4]
-% ... + lambda ||w||^2 a causa di questo darei un peso minimo a X^2
+% ... + lambda ||w||^2 a causa di questo darei un peso minimo a X 2
 
 % quindi normalizzo i dati, prendo il massimo e il minimo 
-% a esempio posso usare normalizzazione tra -1 e 1 (simmetrica, easy to implement, not sensible to outlair)
+% ad esempio posso usare normalizzazione tra -1 e 1 (simmetrica, easy to implement, not sensible to outlair)
 
 for i = 1:size(D,2)
     % Normalizzo
@@ -22,9 +26,8 @@ for i = 1:size(D,2)
     ma = max(D(:,i));
     di = ma - mi;
     
-    if (di > 1e-6) % se di = 0 (numero molto piccolo)
-        % D(:,1) = (D(:,i) - mean(D(:,i)))/std(D(:,i))...
-        D(:,i) = 2*(D(:,i) - mi)/di - 1; % [-1,1]
+    if (di > 1e-6) % se di > 0 (numero molto piccolo)
+        D(:,i) = 2*(D(:,i) - mi)/di - 1; % normalizzo tra [-1,1]
     else
         D(:,1) = 0;
     end
@@ -33,11 +36,11 @@ clear i mi ma di
 
 %%
 X = D(:,1:end-1);
-Y = D(:,end); % ultima colonna quality -> mi dice quanto è buono quel vino con quelle caratteristiche
+Y = D(:,end); % ultima colonna quality -> mi dice quanto ï¿½ buono quel vino con quelle caratteristiche
 clear D
 
 %% Controllo dati
-% controllo che i dati(siccome questisono dati dati dalla natura) siano
+% controllo che i dati(siccome questi sono dati dati dalla natura) siano
 % gaussiani
 % hist(X(:,1),20)
 % plot(Y,Y,'ob')
@@ -97,7 +100,7 @@ for gamma = logspace(-4,3,30)
         alpha = (QLT+lambda*eye(nl+nv,nl+nv))\Y([il,iv]);
         YP = QT*alpha;
         err_t = mean(abs(YP-Y(it)));
-        fprintf('%d %e %e %e\n',gamma,lambda, err_v, err_t);
+        %fprintf('%d %e %e %e\n',gamma,lambda, err_v, err_t);
         if (err_v < err_best)
             err_best = err_v;
             err_model = err_t;

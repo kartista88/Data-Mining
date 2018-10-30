@@ -8,7 +8,7 @@ clc;
 
 % 
 m = 1000;
-n = 100; % samples num.
+n = 50; % samples num.
 d = 1; % dimension of problem
 
 sigma = .05; % ANche con molto rumore non è vero che non si può ricostruire:
@@ -72,8 +72,8 @@ plot(X,Y,'ob');
 % end
 
 % Codice coretto e ottimizzato
-lambda = 0; % High lambda => more flat function low lambda => more complex solution
-gamma = .0000000000001; % parametro che aumentando aumenta la non linearità del modello
+lambda = .01; % High lambda => more flat function low lambda => more complex solution
+gamma = 0.001; % parametro che aumentando aumenta la non linearità del modello
 
 Q = exp(-gamma*pdist2(X,X)); % O(n^2 * d)
 alpha = (Q + lambda*eye(n,n))\Y; % O(n^2) --> comp. is important because i have to solve for many values of lambda and gamma
