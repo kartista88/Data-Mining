@@ -79,4 +79,5 @@ Utilizzare più dati per il learning può implementare la qualità della predizi
 
 Notiamo che lambda_best = 10^-4 e gamma_best = 2.2122
 Lambda indica la smothness del modello e gamma ne indica la non linearità, ma di per sè non possiamo valutare se siano grandi o piccoli.
-Per valutare se gamma sia grande o piccolo devo valutare la dimensionalità dello spazio, se sono un uno spazio a bassa dimensionalità 2 probabilmente è grande ma in uno spazio a grande dimensionalità probabilmente è piccolo, a sua volta lambda dipende dalla cardinalità dello spazio, accade che se abbiamo numeri piccoli in w, lambda sarà grande e quindi regolarizzo molto la soluzione.
+Per valutare se gamma sia grande o piccolo devo valutare la dimensionalità dello spazio, se sono in uno spazio a bassa dimensionalità, gammma = 2 è, probabilmente, grande, mentre in uno a grande dimensionalità è, probabilmente, piccolo. A sua volta lambda dipende dalla cardinalità dello spazio, accade che se abbiamo numeri piccoli in w, lambda sarà grande e quindi regolarizzo molto la soluzione.
+In questo caso la dimensione dello spazio è 11, quindi gamma = 2 può essere considerato piccolo.

@@ -7,7 +7,7 @@ D = load('wine-red.csv');
 
 %%
 % 1 - capire il problema
-% spiegare cos'ï¿½ e come mai puï¿½ essere svolto in qyiel modo
+% spiegare cos'è e come mai può essere svolto in quel modo
 % 2 - dati
 % gestire categorical feature
 % missing values
@@ -15,7 +15,7 @@ D = load('wine-red.csv');
 % 
 % X1 \in [0 - 10^4]
 % X2 \in [0 - 10^-4]
-% ... + lambda ||w||^2 a causa di questo darei un peso minimo a X 2
+% ... + lambda ||w||^2 a causa di questo darei un peso minimo a X2
 
 % quindi normalizzo i dati, prendo il massimo e il minimo 
 % ad esempio posso usare normalizzazione tra -1 e 1 (simmetrica, easy to implement, not sensible to outlair)
@@ -100,7 +100,7 @@ for gamma = logspace(-4,3,30)
         alpha = (QLT+lambda*eye(nl+nv,nl+nv))\Y([il,iv]);
         YP = QT*alpha;
         err_t = mean(abs(YP-Y(it)));
-        %fprintf('%d %e %e %e\n',gamma,lambda, err_v, err_t);
+        fprintf('%d %e %e %e\n',gamma,lambda, err_v, err_t);
         if (err_v < err_best)
             err_best = err_v;
             err_model = err_t;
