@@ -8,7 +8,7 @@ clc;
 
 % 
 m = 1000;
-n = 100; % samples num.
+n = 30; % samples num.
 d = 1; % dimension of problem
 
 sigma = .1; % Anche con molto rumore non è vero che non si può ricostruire:

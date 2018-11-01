@@ -36,13 +36,13 @@ clear i mi ma di
 
 %%
 X = D(:,1:end-1);
-Y = D(:,end); % ultima colonna quality -> mi dice quanto ï¿½ buono quel vino con quelle caratteristiche
+Y = D(:,end); % ultima colonna quality -> mi dice quanto è buono quel vino con quelle caratteristiche
 clear D
 
 %% Controllo dati
 % controllo che i dati(siccome questi sono dati dati dalla natura) siano
 % gaussiani
-% hist(X(:,1),20)
+% hist(X(:,2),20)
 % plot(Y,Y,'ob')
 % hist(Y,20)
 
