@@ -8,7 +8,7 @@ clc;
 
 % 
 m = 1000;
-n = 100; % samples num.
+n = 30; % samples num.
 d = 1; % dimension of problem
 
 sigma = .1; % Anche con molto rumore non è vero che non si può ricostruire:
@@ -31,6 +31,8 @@ plot(XT,YT,'g');
 plot(X,Y,'ob');
 
 %%
+% Usiamo kernel perché caso multidimnsionale i dati non starebbero in
+% memoria su un pc
 % we use gaussian kernel
 % min_w || X w - y ||^2 + lambda ||w||^2
 % X = [phi(x_1)';...;phi(x_n)']
@@ -45,16 +47,23 @@ plot(X,Y,'ob');
 % cerco le migliori lambda e gamma, vanno splitati i dati e ne uso una
 % parte per calcolarle e una parte per verificare 
 
+% validation procedure, slpit the data in learning and validation
+
 nl = round(.7*n); %learning
 nv = n - nl;% validation
 PD = pdist2(X,X); % la pairwise distance può essere calcolata qui, fuoridai loop
 err = zeros(30*30,1); % per ogni lambda e gamma
 for k = 1:30
-    i = randperm(n);
+    % scrivendo il loop su k fuori riduco la varinaza che deriverebbe dalla
+    % scelta di validatione set e learning set
+    % si avrebbe rumore dovuto alla splitting procedure
+    % rumore dovuto a i = randperm(n); il = sort(i(1:nl)); iv = sort(i(nl+1:end));
+    
 %     XL
 %     XV
 %     YL
 %     YV
+    i = randperm(n);
     il = sort(i(1:nl));
     iv = sort(i(nl+1:end));
     j = 0;

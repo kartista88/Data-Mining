@@ -8,7 +8,7 @@ clc;
 % y = x^2 \x in [0,1]
 
 m = 1000;
-sigma = 0.01; % Variance of the noise
+sigma = 10; % Variance of the noise
 
 XT = linspace(0,1,m)';
 YT = XT.^2;
@@ -16,25 +16,26 @@ YT = XT.^2;
 % Per rendere più preciso il calcolo dell'errore devo ripetere l'intero
 % procedimento più volte
 
-nValues = [3,6,10,15,30];
-pValues = 0:5;
-kIters  = 300;
+nValues = [6,10,15,30];
+pValues = 0:3;
+kIters  = 30;
 err = zeros(length(nValues),length(pValues));
-for k = 0:kIters
-    % Nuovo prolema: trovare il miglior grado del polinomio variando il numero
+
+for k = 1:kIters
+    % prolema: trovare il miglior grado del polinomio variando il numero
     % di campioni n
     i1 = 0;
     for n = nValues
         i1 = i1 + 1;
         X = rand(n,1);
-        Y = X.^2 + sigma*randn(n,1);
-        AL = [];
-        AT = [];
+        Y = X.^2 + sigma*randn(n,1); 
+        AL = []; % L -> learning
+        AT = []; % T -> testing
         i2 = 0;
         for p = pValues
             i2 = i2 + 1;
-            AL = [X.^p]; % L -> learning
-            AT = [XT.^p]; % T -> test
+            AL = [AL, X.^p]; %#ok<AGROW>
+            AT = [AT, XT.^p]; %#ok<AGROW>
             c = (AL'*AL)\(AL'*Y);
             YP = AT*c; % YP -> Y predicted
             err(i1,i2) = err(i1,i2) + mean(abs(YT-YP));
@@ -42,7 +43,6 @@ for k = 0:kIters
     end
 end
 err = err / kIters;
-
 
 fprintf('\t\t');
 for i = pValues

@@ -9,17 +9,13 @@ clc;
 % y = x^2 \[0,1]
 
 m = 1000; % Numero di punti sull'asse delle x
-n = 30; % Numero di campioni usato
 
-sigma = 0.5; % Varianza del rumore
 
 % Operatore . point wise -> esegue l'operazione per ogni elemento della
 % matrice
 XT = linspace(0,1,m)'; % XT -> x test : disposizione lineare sull'asse delle x
 YT = XT.^2; % YT -> y test : vero valore di y
 
-X = rand(n,1); % Gli n punti sull'asse x dove ho il campione
-Y = X.^2 + sigma*randn(n,1); % Gli n campioni con sommato rumore gaussiano
 
 % % figure, grid on, box on, hold on;
 % % plot(X,Y,'ob');
@@ -40,33 +36,13 @@ Y = X.^2 + sigma*randn(n,1); % Gli n campioni con sommato rumore gaussiano
 % Con più rumore è meglio aumentare lambda ->  nel report mettere questo
 % grafico
 
-p = 3; % Grado del polinomio regressore
-lambda = 0.1; % lambda*||c||
-
-A = [];
-for i = 1:p
-    A = [A, X.^i];
-end
-c = ((A'*A) + lambda*eye(size(A'*A)))\(A'*Y);
-
-A = [];
-for i = 1:p
-    A = [A, XT.^i];
-end
-YP = A*c;
-
-err = mean(abs(YT-YP));
-
-% % plot(XT, YP, 'r');
-
-% % title(sprintf('err: %e', err))
-
-
 % Provo per più valori di n
-lambda = 0.01;
+lambda = 1;
+sigma = 0.05; % Varianza del rumore
+
 nValues = [3 6 10 15 30];
 pValues = 0:5;
-iterations = 3000;
+iterations = 30;
 err = zeros(length(nValues), length(pValues));
 for k = 1:iterations
     i1 = 0;
