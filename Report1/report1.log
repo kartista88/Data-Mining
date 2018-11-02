@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.23)  26 OCT 2018 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.23)  2 NOV 2018 10:52
 entering extended mode
 **./report1.tex
 (report1.tex
@@ -971,6 +971,22 @@ LaTeX Warning: Label `fig:error by varying n and p' multiply defined.
 
 LaTeX Warning: Label `sub@fig:error by varying n and p' multiply defined.
 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.40 ...abel{fig:\lambda = 1 \gamma = 1}{{14}{12}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.40 ...abel{fig:\lambda = 1 \gamma = 1}{{14}{12}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
 )
 \openout1 = `report1.aux'.
 
@@ -1112,29 +1128,32 @@ Package pdftex.def Info: table_error_varying_n_p2.png  used on input line 42.
  <./regression_function.png>]) [3 <./error_varying_n_p.png> <./error_varying_n_
 p2.png> <./table_error_varying_n_p.png> <./table_error_varying_n_p2.png>]
 (chapters/es_2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
 <pl100s10.png, id=37, 500.87125pt x 396.48125pt>
 File: pl100s10.png Graphic file (type png)
 <use pl100s10.png>
-Package pdftex.def Info: pl100s10.png  used on input line 12.
+Package pdftex.def Info: pl100s10.png  used on input line 6.
 (pdftex.def)             Requested size: 250.24199pt x 198.08888pt.
 <tl100s10.png, id=38, 630.355pt x 110.4125pt>
 File: tl100s10.png Graphic file (type png)
 <use tl100s10.png>
-Package pdftex.def Info: tl100s10.png  used on input line 17.
+Package pdftex.def Info: tl100s10.png  used on input line 11.
 (pdftex.def)             Requested size: 250.24199pt x 43.8323pt.
 <pl0001s10.png, id=39, 497.86pt x 396.48125pt>
 File: pl0001s10.png Graphic file (type png)
 <use pl0001s10.png>
-Package pdftex.def Info: pl0001s10.png  used on input line 24.
+Package pdftex.def Info: pl0001s10.png  used on input line 18.
 (pdftex.def)             Requested size: 250.24199pt x 199.28674pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <tl0001s10.png, id=40, 631.35875pt x 109.40875pt>
 File: tl0001s10.png Graphic file (type png)
 <use tl0001s10.png>
-Package pdftex.def Info: tl0001s10.png  used on input line 29.
+Package pdftex.def Info: tl0001s10.png  used on input line 23.
 (pdftex.def)             Requested size: 250.24199pt x 43.36539pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1142,7 +1161,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <pl1s001.png, id=41, 489.83pt x 392.46625pt>
 File: pl1s001.png Graphic file (type png)
 <use pl1s001.png>
-Package pdftex.def Info: pl1s001.png  used on input line 36.
+Package pdftex.def Info: pl1s001.png  used on input line 30.
 (pdftex.def)             Requested size: 250.24199pt x 200.49648pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1150,7 +1169,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <tl1s001.png, id=42, 636.3775pt x 115.43124pt>
 File: tl1s001.png Graphic file (type png)
 <use tl1s001.png>
-Package pdftex.def Info: tl1s001.png  used on input line 41.
+Package pdftex.def Info: tl1s001.png  used on input line 35.
 (pdftex.def)             Requested size: 250.24199pt x 45.38963pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1158,7 +1177,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <pl100s01.png, id=43, 512.91624pt x 390.45876pt>
 File: pl100s01.png Graphic file (type png)
 <use pl100s01.png>
-Package pdftex.def Info: pl100s01.png  used on input line 48.
+Package pdftex.def Info: pl100s01.png  used on input line 42.
 (pdftex.def)             Requested size: 250.24199pt x 190.4983pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1166,7 +1185,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <tl100s01.png, id=44, 643.40375pt x 111.41624pt>
 File: tl100s01.png Graphic file (type png)
 <use tl100s01.png>
-Package pdftex.def Info: tl100s01.png  used on input line 53.
+Package pdftex.def Info: tl100s01.png  used on input line 47.
 (pdftex.def)             Requested size: 250.24199pt x 43.33315pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1174,7 +1193,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <pl000001s001.png, id=45, 502.87875pt x 401.5pt>
 File: pl000001s001.png Graphic file (type png)
 <use pl000001s001.png>
-Package pdftex.def Info: pl000001s001.png  used on input line 60.
+Package pdftex.def Info: pl000001s001.png  used on input line 54.
 (pdftex.def)             Requested size: 250.24199pt x 199.79378pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1182,7 +1201,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <tl000001s001.png, id=46, 636.3775pt x 115.43124pt>
 File: tl000001s001.png Graphic file (type png)
 <use tl000001s001.png>
-Package pdftex.def Info: tl000001s001.png  used on input line 65.
+Package pdftex.def Info: tl000001s001.png  used on input line 59.
 (pdftex.def)             Requested size: 250.24199pt x 45.38963pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1191,22 +1210,137 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <./pl100s10.png> <./tl100s10.png>] [5 <./pl0001s10.png> <./tl0001s10.png> <./p
 l1s001.png> <./tl1s001.png>] [6 <./pl100s01.png> <./tl100s01.png> <./pl000001s0
-01.png> <./tl000001s001.png>] (report1.lof)
+01.png> <./tl000001s001.png>] (chapters/es_3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+<kml1g1.png, id=67, 522.95375pt x 405.515pt>
+File: kml1g1.png Graphic file (type png)
+<use kml1g1.png>
+Package pdftex.def Info: kml1g1.png  used on input line 19.
+(pdftex.def)             Requested size: 250.24199pt x 194.05096pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+<kml1g001.png, id=68, 500.87125pt x 393.47pt>
+File: kml1g001.png Graphic file (type png)
+<use kml1g001.png>
+Package pdftex.def Info: kml1g001.png  used on input line 28.
+(pdftex.def)             Requested size: 250.24199pt x 196.58441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+<kml1g25.png, id=69, 502.87875pt x 399.4925pt>
+File: kml1g25.png Graphic file (type png)
+<use kml1g25.png>
+Package pdftex.def Info: kml1g25.png  used on input line 37.
+(pdftex.def)             Requested size: 250.24199pt x 198.79482pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+<kml10g01.png, id=70, 494.84875pt x 388.45125pt>
+File: kml10g01.png Graphic file (type png)
+<use kml10g01.png>
+Package pdftex.def Info: kml10g01.png  used on input line 46.
+(pdftex.def)             Requested size: 250.24199pt x 196.436pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+<kml100g0.png, id=71, 494.84875pt x 398.48875pt>
+File: kml100g0.png Graphic file (type png)
+<use kml100g0.png>
+Package pdftex.def Info: kml100g0.png  used on input line 57.
+(pdftex.def)             Requested size: 250.24199pt x 201.51189pt.
+) [7
+
+] [8 <./kml1g1.png> <./kml1g001.png>] [9 <./kml1g25.png> <./kml10g01.png>]
+[10 <./kml100g0.png>] (chapters/real_world_problem.tex
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+<hist1.png, id=89, 519.9425pt x 394.47375pt>
+File: hist1.png Graphic file (type png)
+<use hist1.png>
+Package pdftex.def Info: hist1.png  used on input line 33.
+(pdftex.def)             Requested size: 250.24199pt x 189.85085pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+<kmlbgb.png, id=90, 494.84875pt x 394.47375pt>
+File: kmlbgb.png Graphic file (type png)
+<use kmlbgb.png>
+Package pdftex.def Info: kmlbgb.png  used on input line 45.
+(pdftex.def)             Requested size: 250.24199pt x 199.48154pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+<hist2.png, id=91, 513.92pt x 395.4775pt>
+File: hist2.png Graphic file (type png)
+<use hist2.png>
+Package pdftex.def Info: hist2.png  used on input line 58.
+(pdftex.def)             Requested size: 250.24199pt x 192.57274pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+<scatter.png, id=92, 506.89375pt x 402.50375pt>
+File: scatter.png Graphic file (type png)
+<use scatter.png>
+Package pdftex.def Info: scatter.png  used on input line 70.
+(pdftex.def)             Requested size: 250.24199pt x 198.70256pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+<scatter2.png, id=93, 518.93875pt x 413.545pt>
+File: scatter2.png Graphic file (type png)
+<use scatter2.png>
+Package pdftex.def Info: scatter2.png  used on input line 82.
+(pdftex.def)             Requested size: 250.24199pt x 199.42062pt.
+) [11
+
+] [12 <./hist1.png> <./kmlbgb.png>] [13 <./hist2.png> <./scatter.png>]
+[14 <./scatter2.png>] (report1.lof)
 \tf@lof=\write5
 \openout5 = `report1.lof'.
 
- [7
+ [15
 
-] (report1.aux)
+] (report1.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.40 ...abel{fig:\lambda = 1 \gamma = 1}{{14}{12}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26988 strings out of 492970
- 563135 string characters out of 3126593
- 610136 words of memory out of 3000000
- 30466 multiletter control sequences out of 15000+200000
+ 27041 strings out of 492970
+ 564153 string characters out of 3126593
+ 611156 words of memory out of 3000000
+ 30503 multiletter control sequences out of 15000+200000
  539895 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,67p,829b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1214,16 +1348,18 @@ Here is how much of TeX's memory you used:
 /cm/cmbx10.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Mauro/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mauro/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Maur
-o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mauro/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Maur
+o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
 :/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr7.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr8.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report1.pdf (8 pages, 1118598 bytes).
+cmr17.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mauro/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on report1.pdf (16 pages, 1777459 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
