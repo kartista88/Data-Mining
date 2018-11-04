@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.23)  4 NOV 2018 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.23)  4 NOV 2018 23:23
 entering extended mode
 **./report1.tex
 (report1.tex
@@ -1302,7 +1302,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  27045 strings out of 492970
- 564289 string characters out of 3126593
+ 564707 string characters out of 3126593
  611198 words of memory out of 3000000
  30507 multiletter control sequences out of 15000+200000
  539895 words of font info for 54 fonts, out of 3000000 for 9000
@@ -1322,7 +1322,7 @@ ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX
 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mauro/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mauro/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on report1.pdf (13 pages, 1786043 bytes).
+Output written on report1.pdf (13 pages, 1785672 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,6 +1,6 @@
 We face a real-world problem as the last lab.
 
-After understanding the problem and understanding what method to use to solve it, We proceed by checking the data in the dataset:
+After understanding the problem and understanding what method use to solve it, we proceed by checking data in the dataset:
 \begin{itemize}
 	
 	\item Categorical features
@@ -9,21 +9,21 @@ After understanding the problem and understanding what method to use to solve it
 	
 \end{itemize}
 We normalize the data so that each feature has the same weight in the solution.
-We control the distribution of data, checking the various control features that possibly have a Gaussian distribution: the Gaussian distribution indicates that they are data deriving from nature.
+We control the distribution of data, checking the various categorical features that possibly have a Gaussian distribution: the Gaussian distribution indicates that data come from nature.
 We observe that during the calculation two types of errors are kept:
 \begin{itemize}
 	
 	\item Error on validation: used to optimize $\gamma$ and $\lambda$
-	\item Error on the test: tells me that if we take the data we do learning with those particular $\gamma$ and $\lambda$ we get a model with that particular unbiased error
+	\item Error on the test: tells me that if we take the data and we do learning with those particular $\gamma$ and $\lambda$, we get a model with that particular unbiased error
 
 	
 \end{itemize}
-To verify the goodness of the model a single parameter is not enough (error for example), then we print a scatter plot: $x$ axis $\rightarrow$ true value, $y$ axis $\rightarrow$ prediction.\\
+To verify the goodness of model a single parameter is not enough (error for example), then we print a scatter plot: $x$ axis $\rightarrow$ true value, $y$ axis $\rightarrow$ prediction.\\
 \textbf{Ideal case}: there is a line, so the values coincide exactly.\\
 \textbf{Real case}: there is a bubble, an elipsoid is formed around the straight line
-Using more data for learning can implement prediction quality, so we can change percentages.
+Using more data for learning we can improve prediction quality, so we can try to change percentages.
 
-We note that $lambda_{best} = 10^{-4}$ and $\gamma_{best} = 2.2122$, $\lambda$ indicates the smoothness of the model and range indicates its non-linearity, but in itself we can not evaluate whether they are large or small.
+We note that $\lambda_{best} = 10^{-4}$ and $\gamma_{best} = 2.2122$. $\lambda$ indicates the smoothness of the model and $\gamma$ indicates its non-linearity, but in itself we can not evaluate whether they are large or small.
 To evaluate whether the range is large or small we have to evaluate the dimensionality of the space, if we are in a low-dimensional space, $\gamma = 2$ is probably large, while in one of great dimensionality it is probably small. In turn, lambda depends on the cardinality of the space, it happens that if we have small numbers in $\omega$, $\lambda$ will be large and then very regularize the solution.
 In this case the size of the space is 11, so $\gamma = 2$ can be considered small.\\
 \begin{figure}
