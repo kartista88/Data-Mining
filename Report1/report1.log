@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.23)  2 NOV 2018 10:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.23)  4 NOV 2018 22:29
 entering extended mode
 **./report1.tex
 (report1.tex
@@ -974,7 +974,7 @@ LaTeX Warning: Label `sub@fig:error by varying n and p' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \lambda 
-l.40 ...abel{fig:\lambda = 1 \gamma = 1}{{14}{12}}
+l.37 ...fig:$\lambda $ = 1 $\gamma $ = 1}{{5a}{7}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -982,12 +982,309 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \lambda 
-l.40 ...abel{fig:\lambda = 1 \gamma = 1}{{14}{12}}
+l.37 ...fig:$\lambda $ = 1 $\gamma $ = 1}{{5a}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.38 ...ig:$\lambda $ = 1 $\gamma $ = 1}{{(a)}{a}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.38 ...ig:$\lambda $ = 1 $\gamma $ = 1}{{(a)}{a}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.39 ...01 $\gamma $ = 1 Less smoothness}{{5b}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39 ...01 $\gamma $ = 1 Less smoothness}{{5b}{7}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...01 $\gamma $ = 1 Less smoothness}{{5b}{7}}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+("C:\Users\Mauro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+("C:\Users\Mauro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+! Extra \endcsname.
+\@ifundefined #1->\ifcsname #1\endcsname 
+                                         \@ifundefin@d@i \else \@ifundefin@d...
+l.39 ...01 $\gamma $ = 1 Less smoothness}{{5b}{7}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.39 ...01 $\gamma $ = 1 Less smoothness}{{5b}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Label `fig:$\lambda $ = 0,01 $\gamma $ = 1 Less smoothness' mult
+iply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.39 ...01 $\gamma $ = 1 Less smoothness}{{5b}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.40 ...1 $\gamma $ = 1 Less smoothness}{{(b)}{b}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.40 ...1 $\gamma $ = 1 Less smoothness}{{(b)}{b}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra \endcsname.
+\@ifundefined #1->\ifcsname #1\endcsname 
+                                         \@ifundefin@d@i \else \@ifundefin@d...
+l.40 ...1 $\gamma $ = 1 Less smoothness}{{(b)}{b}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.40 ...1 $\gamma $ = 1 Less smoothness}{{(b)}{b}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Label `sub@fig:$\lambda $ = 0,01 $\gamma $ = 1 Less smoothness' 
+multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.40 ...1 $\gamma $ = 1 Less smoothness}{{(b)}{b}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.43 ...abel{fig:\lambda = 25 \gamma = 1}{{5a}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.43 ...abel{fig:\lambda = 25 \gamma = 1}{{5a}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.44 ...sub@fig:\lambda = 25 \gamma = 1}{{(a)}{a}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.44 ...sub@fig:\lambda = 25 \gamma = 1}{{(a)}{a}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.45 ...el{fig:\lambda = 0,1 \gamma = 10}{{5b}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45 ...el{fig:\lambda = 0,1 \gamma = 10}{{5b}{7}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra \endcsname.
+\@ifundefined #1->\ifcsname #1\endcsname 
+                                         \@ifundefin@d@i \else \@ifundefin@d...
+l.45 ...el{fig:\lambda = 0,1 \gamma = 10}{{5b}{7}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.45 ...el{fig:\lambda = 0,1 \gamma = 10}{{5b}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Label `fig:\lambda = 0,1 \gamma = 10' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.45 ...el{fig:\lambda = 0,1 \gamma = 10}{{5b}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra }, or forgotten $.
+\@newl@bel ...ined}}\global \@namedef {#1@#2}{#3}}
+                                                  
+l.45 ...el{fig:\lambda = 0,1 \gamma = 10}{{5b}{7}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.46 ...b@fig:\lambda = 0,1 \gamma = 10}{{(b)}{b}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\@ifundefined #1->\ifcsname #1\endcsname 
+                                         \@ifundefin@d@i \else \@ifundefin@d...
+l.46 ...b@fig:\lambda = 0,1 \gamma = 10}{{(b)}{b}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.46 ...b@fig:\lambda = 0,1 \gamma = 10}{{(b)}{b}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Label `sub@fig:\lambda = 0,1 \gamma = 10' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.46 ...b@fig:\lambda = 0,1 \gamma = 10}{{(b)}{b}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.52 \newlabel{fig:\lambda = 1 \gamma = 1}{{6}{9}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\@ifundefined #1->\ifcsname #1\endcsname 
+                                         \@ifundefin@d@i \else \@ifundefin@d...
+l.52 \newlabel{fig:\lambda = 1 \gamma = 1}{{6}{9}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.52 \newlabel{fig:\lambda = 1 \gamma = 1}{{6}{9}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+LaTeX Warning: Label `fig:\lambda = 1 \gamma = 1' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.52 \newlabel{fig:\lambda = 1 \gamma = 1}{{6}{9}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 )
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 \begin{document}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21 \begin{document}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 \openout1 = `report1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -1002,7 +1299,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1072,18 +1368,10 @@ G,.JBIG2,.JB2,.eps]
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 22.
+ [1
 
-("C:\Users\Mauro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 22.
-("C:\Users\Mauro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{C:/Users/Mauro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(report1.toc)
+{C:/Users/Mauro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [1] (report
+1.toc)
 \tf@toc=\write4
 \openout4 = `report1.toc'.
 
@@ -1097,30 +1385,30 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
-<regression_function.png, id=16, 563.10374pt x 425.59pt>
+<regression_function.png, id=20, 563.10374pt x 425.59pt>
 File: regression_function.png Graphic file (type png)
 <use regression_function.png>
 Package pdftex.def Info: regression_function.png  used on input line 18.
 (pdftex.def)             Requested size: 250.24199pt x 189.13043pt.
-<error_varying_n_p.png, id=18, 559.08875pt x 422.57875pt>
+<error_varying_n_p.png, id=22, 559.08875pt x 422.57875pt>
 File: error_varying_n_p.png Graphic file (type png)
 <use error_varying_n_p.png>
-Package pdftex.def Info: error_varying_n_p.png  used on input line 32.
+Package pdftex.def Info: error_varying_n_p.png  used on input line 31.
 (pdftex.def)             Requested size: 225.21626pt x 170.22783pt.
-<error_varying_n_p2.png, id=19, 564.1075pt x 424.58624pt>
+<error_varying_n_p2.png, id=23, 564.1075pt x 424.58624pt>
 File: error_varying_n_p2.png Graphic file (type png)
 <use error_varying_n_p2.png>
-Package pdftex.def Info: error_varying_n_p2.png  used on input line 34.
+Package pdftex.def Info: error_varying_n_p2.png  used on input line 33.
 (pdftex.def)             Requested size: 225.21626pt x 169.51402pt.
-<table_error_varying_n_p.png, id=20, 642.4pt x 113.42375pt>
+<table_error_varying_n_p.png, id=24, 642.4pt x 113.42375pt>
 File: table_error_varying_n_p.png Graphic file (type png)
 <use table_error_varying_n_p.png>
-Package pdftex.def Info: table_error_varying_n_p.png  used on input line 40.
+Package pdftex.def Info: table_error_varying_n_p.png  used on input line 39.
 (pdftex.def)             Requested size: 250.24199pt x 44.18315pt.
-<table_error_varying_n_p2.png, id=21, 443.6575pt x 114.4275pt>
+<table_error_varying_n_p2.png, id=25, 443.6575pt x 114.4275pt>
 File: table_error_varying_n_p2.png Graphic file (type png)
 <use table_error_varying_n_p2.png>
-Package pdftex.def Info: table_error_varying_n_p2.png  used on input line 42.
+Package pdftex.def Info: table_error_varying_n_p2.png  used on input line 41.
 (pdftex.def)             Requested size: 200.19054pt x 51.63158pt.
 
 [2
@@ -1128,89 +1416,68 @@ Package pdftex.def Info: table_error_varying_n_p2.png  used on input line 42.
  <./regression_function.png>]) [3 <./error_varying_n_p.png> <./error_varying_n_
 p2.png> <./table_error_varying_n_p.png> <./table_error_varying_n_p2.png>]
 (chapters/es_2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--3
-
- []
-
-<pl100s10.png, id=37, 500.87125pt x 396.48125pt>
+<pl100s10.png, id=40, 500.87125pt x 396.48125pt>
 File: pl100s10.png Graphic file (type png)
 <use pl100s10.png>
-Package pdftex.def Info: pl100s10.png  used on input line 6.
-(pdftex.def)             Requested size: 250.24199pt x 198.08888pt.
-<tl100s10.png, id=38, 630.355pt x 110.4125pt>
-File: tl100s10.png Graphic file (type png)
-<use tl100s10.png>
-Package pdftex.def Info: tl100s10.png  used on input line 11.
-(pdftex.def)             Requested size: 250.24199pt x 43.8323pt.
-<pl0001s10.png, id=39, 497.86pt x 396.48125pt>
+Package pdftex.def Info: pl100s10.png  used on input line 9.
+(pdftex.def)             Requested size: 225.21626pt x 178.27576pt.
+<pl0001s10.png, id=41, 497.86pt x 396.48125pt>
 File: pl0001s10.png Graphic file (type png)
 <use pl0001s10.png>
-Package pdftex.def Info: pl0001s10.png  used on input line 18.
-(pdftex.def)             Requested size: 250.24199pt x 199.28674pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<tl0001s10.png, id=40, 631.35875pt x 109.40875pt>
+Package pdftex.def Info: pl0001s10.png  used on input line 11.
+(pdftex.def)             Requested size: 225.21626pt x 179.35867pt.
+<tl100s10.png, id=42, 630.355pt x 110.4125pt>
+File: tl100s10.png Graphic file (type png)
+<use tl100s10.png>
+Package pdftex.def Info: tl100s10.png  used on input line 15.
+(pdftex.def)             Requested size: 225.21626pt x 39.44858pt.
+<tl0001s10.png, id=43, 631.35875pt x 109.40875pt>
 File: tl0001s10.png Graphic file (type png)
 <use tl0001s10.png>
-Package pdftex.def Info: tl0001s10.png  used on input line 23.
-(pdftex.def)             Requested size: 250.24199pt x 43.36539pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<pl1s001.png, id=41, 489.83pt x 392.46625pt>
+Package pdftex.def Info: tl0001s10.png  used on input line 17.
+(pdftex.def)             Requested size: 225.21626pt x 39.02818pt.
+<pl1s001.png, id=44, 489.83pt x 392.46625pt>
 File: pl1s001.png Graphic file (type png)
 <use pl1s001.png>
-Package pdftex.def Info: pl1s001.png  used on input line 30.
-(pdftex.def)             Requested size: 250.24199pt x 200.49648pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<tl1s001.png, id=42, 636.3775pt x 115.43124pt>
-File: tl1s001.png Graphic file (type png)
-<use tl1s001.png>
-Package pdftex.def Info: tl1s001.png  used on input line 35.
-(pdftex.def)             Requested size: 250.24199pt x 45.38963pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<pl100s01.png, id=43, 512.91624pt x 390.45876pt>
+Package pdftex.def Info: pl1s001.png  used on input line 24.
+(pdftex.def)             Requested size: 225.21626pt x 180.44682pt.
+<pl100s01.png, id=45, 512.91624pt x 390.45876pt>
 File: pl100s01.png Graphic file (type png)
 <use pl100s01.png>
-Package pdftex.def Info: pl100s01.png  used on input line 42.
-(pdftex.def)             Requested size: 250.24199pt x 190.4983pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<tl100s01.png, id=44, 643.40375pt x 111.41624pt>
+Package pdftex.def Info: pl100s01.png  used on input line 26.
+(pdftex.def)             Requested size: 225.21626pt x 171.4449pt.
+<tl1s001.png, id=46, 636.3775pt x 115.43124pt>
+File: tl1s001.png Graphic file (type png)
+<use tl1s001.png>
+Package pdftex.def Info: tl1s001.png  used on input line 30.
+(pdftex.def)             Requested size: 225.21626pt x 40.85068pt.
+<tl100s01.png, id=47, 643.40375pt x 111.41624pt>
 File: tl100s01.png Graphic file (type png)
 <use tl100s01.png>
-Package pdftex.def Info: tl100s01.png  used on input line 47.
-(pdftex.def)             Requested size: 250.24199pt x 43.33315pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<pl000001s001.png, id=45, 502.87875pt x 401.5pt>
+Package pdftex.def Info: tl100s01.png  used on input line 32.
+(pdftex.def)             Requested size: 225.21626pt x 38.99966pt.
+<pl000001s001.png, id=48, 502.87875pt x 401.5pt>
 File: pl000001s001.png Graphic file (type png)
 <use pl000001s001.png>
-Package pdftex.def Info: pl000001s001.png  used on input line 54.
+Package pdftex.def Info: pl000001s001.png  used on input line 43.
 (pdftex.def)             Requested size: 250.24199pt x 199.79378pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<tl000001s001.png, id=46, 636.3775pt x 115.43124pt>
+<tl000001s001.png, id=49, 636.3775pt x 115.43124pt>
 File: tl000001s001.png Graphic file (type png)
 <use tl000001s001.png>
-Package pdftex.def Info: tl000001s001.png  used on input line 59.
+Package pdftex.def Info: tl000001s001.png  used on input line 48.
 (pdftex.def)             Requested size: 250.24199pt x 45.38963pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [4
 
- <./pl100s10.png> <./tl100s10.png>] [5 <./pl0001s10.png> <./tl0001s10.png> <./p
-l1s001.png> <./tl1s001.png>] [6 <./pl100s01.png> <./tl100s01.png> <./pl000001s0
-01.png> <./tl000001s001.png>] (chapters/es_3.tex
+ <./pl100s10.png> <./pl0001s10.png> <./tl100s10.png> <./tl0001s10.png>]
+[5 <./pl1s001.png> <./pl100s01.png> <./tl1s001.png> <./tl100s01.png> <./pl00000
+1s001.png> <./tl000001s001.png>] (chapters/es_3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1218,115 +1485,164 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 <kml1g1.png, id=67, 522.95375pt x 405.515pt>
 File: kml1g1.png Graphic file (type png)
 <use kml1g1.png>
-Package pdftex.def Info: kml1g1.png  used on input line 19.
-(pdftex.def)             Requested size: 250.24199pt x 194.05096pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
+Package pdftex.def Info: kml1g1.png  used on input line 21.
+(pdftex.def)             Requested size: 225.21626pt x 174.64029pt.
 <kml1g001.png, id=68, 500.87125pt x 393.47pt>
 File: kml1g001.png Graphic file (type png)
 <use kml1g001.png>
-Package pdftex.def Info: kml1g001.png  used on input line 28.
-(pdftex.def)             Requested size: 250.24199pt x 196.58441pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
+Package pdftex.def Info: kml1g001.png  used on input line 23.
+(pdftex.def)             Requested size: 225.21626pt x 176.92177pt.
 <kml1g25.png, id=69, 502.87875pt x 399.4925pt>
 File: kml1g25.png Graphic file (type png)
 <use kml1g25.png>
-Package pdftex.def Info: kml1g25.png  used on input line 37.
-(pdftex.def)             Requested size: 250.24199pt x 198.79482pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
+Package pdftex.def Info: kml1g25.png  used on input line 31.
+(pdftex.def)             Requested size: 225.21626pt x 178.91045pt.
 <kml10g01.png, id=70, 494.84875pt x 388.45125pt>
 File: kml10g01.png Graphic file (type png)
 <use kml10g01.png>
-Package pdftex.def Info: kml10g01.png  used on input line 46.
-(pdftex.def)             Requested size: 250.24199pt x 196.436pt.
+Package pdftex.def Info: kml10g01.png  used on input line 33.
+(pdftex.def)             Requested size: 225.21626pt x 176.793pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 <kml100g0.png, id=71, 494.84875pt x 398.48875pt>
 File: kml100g0.png Graphic file (type png)
 <use kml100g0.png>
-Package pdftex.def Info: kml100g0.png  used on input line 57.
+Package pdftex.def Info: kml100g0.png  used on input line 44.
 (pdftex.def)             Requested size: 250.24199pt x 201.51189pt.
-) [7
+) [6
 
-] [8 <./kml1g1.png> <./kml1g001.png>] [9 <./kml1g25.png> <./kml10g01.png>]
-[10 <./kml100g0.png>] (chapters/real_world_problem.tex
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+] [7 <./kml1g1.png> <./kml1g001.png> <./kml1g25.png> <./kml10g01.png> <./kml100
+g0.png>] (chapters/real_world_problem.tex
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<hist1.png, id=89, 519.9425pt x 394.47375pt>
+<hist1.png, id=84, 519.9425pt x 394.47375pt>
 File: hist1.png Graphic file (type png)
 <use hist1.png>
-Package pdftex.def Info: hist1.png  used on input line 33.
+Package pdftex.def Info: hist1.png  used on input line 32.
 (pdftex.def)             Requested size: 250.24199pt x 189.85085pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-<kmlbgb.png, id=90, 494.84875pt x 394.47375pt>
+<kmlbgb.png, id=85, 494.84875pt x 394.47375pt>
 File: kmlbgb.png Graphic file (type png)
 <use kmlbgb.png>
-Package pdftex.def Info: kmlbgb.png  used on input line 45.
+Package pdftex.def Info: kmlbgb.png  used on input line 44.
 (pdftex.def)             Requested size: 250.24199pt x 199.48154pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
-<hist2.png, id=91, 513.92pt x 395.4775pt>
+<hist2.png, id=86, 513.92pt x 395.4775pt>
 File: hist2.png Graphic file (type png)
 <use hist2.png>
-Package pdftex.def Info: hist2.png  used on input line 58.
+Package pdftex.def Info: hist2.png  used on input line 57.
 (pdftex.def)             Requested size: 250.24199pt x 192.57274pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-<scatter.png, id=92, 506.89375pt x 402.50375pt>
+<scatter.png, id=87, 506.89375pt x 402.50375pt>
 File: scatter.png Graphic file (type png)
 <use scatter.png>
-Package pdftex.def Info: scatter.png  used on input line 70.
+Package pdftex.def Info: scatter.png  used on input line 69.
 (pdftex.def)             Requested size: 250.24199pt x 198.70256pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<scatter2.png, id=93, 518.93875pt x 413.545pt>
+<scatter2.png, id=88, 518.93875pt x 413.545pt>
 File: scatter2.png Graphic file (type png)
 <use scatter2.png>
-Package pdftex.def Info: scatter2.png  used on input line 82.
+Package pdftex.def Info: scatter2.png  used on input line 81.
 (pdftex.def)             Requested size: 250.24199pt x 199.42062pt.
-) [11
+) [8
 
-] [12 <./hist1.png> <./kmlbgb.png>] [13 <./hist2.png> <./scatter.png>]
-[14 <./scatter2.png>] (report1.lof)
+] [9 <./hist1.png> <./kmlbgb.png>] [10 <./hist2.png> <./scatter.png>]
+[11 <./scatter2.png>] (report1.lof)
 \tf@lof=\write5
 \openout5 = `report1.lof'.
 
- [15
+ [12
 
 ] (report1.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \lambda 
-l.40 ...abel{fig:\lambda = 1 \gamma = 1}{{14}{12}}
+l.37 ...fig:$\lambda $ = 1 $\gamma $ = 1}{{5a}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.38 ...ig:$\lambda $ = 1 $\gamma $ = 1}{{(a)}{a}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.39 ...01 $\gamma $ = 1 Less smoothness}{{5b}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.40 ...1 $\gamma $ = 1 Less smoothness}{{(b)}{b}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.43 ...abel{fig:\lambda = 25 \gamma = 1}{{5a}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.44 ...sub@fig:\lambda = 25 \gamma = 1}{{(a)}{a}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.45 ...el{fig:\lambda = 0,1 \gamma = 10}{{5b}{7}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.46 ...b@fig:\lambda = 0,1 \gamma = 10}{{(b)}{b}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \lambda 
+l.52 \newlabel{fig:\lambda = 1 \gamma = 1}{{6}{9}}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1337,29 +1653,30 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27041 strings out of 492970
- 564153 string characters out of 3126593
- 611156 words of memory out of 3000000
- 30503 multiletter control sequences out of 15000+200000
+ 27048 strings out of 492970
+ 564317 string characters out of 3126593
+ 611514 words of memory out of 3000000
+ 30510 multiletter control sequences out of 15000+200000
  539895 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,67p,829b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,10n,67p,829b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Mauro/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mauro/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Maur
-o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Maur
+o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
 :/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr17.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mauro/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on report1.pdf (16 pages, 1777459 bytes).
+cmr12.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mauro/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mauro/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on report1.pdf (14 pages, 1786645 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
