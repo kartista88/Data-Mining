@@ -1,0 +1,51 @@
+\documentclass{report}
+
+\usepackage[top=2cm, left=2cm, right=2cm, bottom=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mdframed}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{shapes}
+
+\newcommand\WLOG{{\small\textbf{WLOG}}}
+
+\title{Data analysis and data Mining\\Report 1}
+
+\author{Mauro Angelini\\
+Alessio Gilardi}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+
+    \setlength\parskip{0.5cm}
+    
+	\chapter*{First exercise}
+	\addcontentsline{toc}{chapter}{First exercise}
+	\input{chapters/es_1.tex} 
+	
+	\setlength\parskip{0.5cm}
+	
+    \chapter*{Second exercise}
+    \addcontentsline{toc}{chapter}{Second exercise}
+    \input{chapters/es_2.tex}
+	
+	\setlength\parskip{0.5cm}
+	
+	\chapter*{Third exercise}
+	\addcontentsline{toc}{chapter}{Third exercise}
+	\input{chapters/es_3.tex}
+	
+	\setlength\parskip{0.5cm}
+	
+	\chapter*{Real World Problem}
+	\addcontentsline{toc}{chapter}{Real world problem}
+	\input{chapters/real_world_problem.tex}
+ 
+    \listoffigures
+
+\end{document}
