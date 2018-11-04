@@ -23,8 +23,8 @@ To verify the goodness of model a single parameter is not enough (error for exam
 \textbf{Real case}: there is a bubble, an elipsoid is formed around the straight line
 Using more data for learning we can improve prediction quality, so we can try to change percentages.
 
-We note that $\lambda_{best} = 10^{-4}$ and $\gamma_{best} = 2.2122$. $\lambda$ indicates the smoothness of the model and $\gamma$ indicates its non-linearity, but in itself we can not evaluate whether they are large or small.
-To evaluate whether the range is large or small we have to evaluate the dimensionality of the space, if we are in a low-dimensional space, $\gamma = 2$ is probably large, while in one of great dimensionality it is probably small. In turn, lambda depends on the cardinality of the space, it happens that if we have small numbers in $\omega$, $\lambda$ will be large and then very regularize the solution.
+We note that $\lambda_{best} = 10^{-4}$ and $\gamma_{best} = 2.2122$.\\* $\lambda$ indicates the smoothness of the model and $\gamma$ indicates its non-linearity, but in itself we can not evaluate whether they are large or small.
+To evaluate whether the $\gamma$ is large or small we have to evaluate the dimensionality of the space, if we are in a low-dimensional space, $\gamma = 2$ is probably large, while in one of great dimensionality it is probably small. In turn, lambda depends on the cardinality of the space, it happens that if we have small numbers in $\omega$, $\lambda$ will be large and then very regularize the solution.
 In this case the size of the space is 11, so $\gamma = 2$ can be considered small.\\
 \begin{figure}
 We verify the distribution of the data, here for example the first categorical feature (X (:, 1)) the fact that it has a Gaussian distribution is a good sign because it is the correct distribution for data coming from nature:\\
