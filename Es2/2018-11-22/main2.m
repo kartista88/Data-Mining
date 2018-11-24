@@ -1,6 +1,17 @@
 clear 
 close all
 clc
+
+% Commento Mauro
+%
+% epsilon is the precision  
+% alpha is the starting point that ha to be inside domain because satisfy box constraint and linear constraint 
+% how I can see if the solution is correct 
+% 1 plot solution to see if KKT constraint are satisfy 
+% the point on support iperplane 
+% the where each alpha = C 
+% to be sure that all point are corrected classified we have to compute duality gap  
+% in particular for points near to margin
  
 %%
 n = 100;
