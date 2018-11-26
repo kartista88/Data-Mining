@@ -45,7 +45,7 @@ end
 
 %%
 ns = 10000;
-XS = 2*rand(ns,d)-1;
+XS = 2*rand(ns,d)-1; % Moltiplico per 2 e rimuovo 1 per distribuire i numeri tra -1 e 1
 YS = zeros(ns,c*(c-1)/2);
 i3 = 0;
 for i1 = 1:c

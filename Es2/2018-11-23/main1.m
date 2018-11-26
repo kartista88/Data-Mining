@@ -39,7 +39,7 @@ end
 
 % We haveb to train  the model
 
-depth = 0; % Depth of the tree
+depth = 3; % Depth of the tree
 T = DT_learn(X,Y,depth);
 
 %%
