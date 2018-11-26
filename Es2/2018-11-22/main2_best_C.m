@@ -69,4 +69,4 @@ dualcost = -(.5*alpha'*Q*alpha-ones(n,1)'*alpha);
 % .5 |w|^2 + C \sum_i=1^n max(0,1-y_i (w'x_i+b))
 primalcost = .5*w_best'*w_best+C_best*sum(max(0,1-diag(Y)*(X*w+b))); 
 dualitygap = abs(dualcost-primalcost);
-title(sprintf('DG: %e',dualitygap))
+title(sprintf('DG: %e   C_{best}: %e',dualitygap,C_best))
