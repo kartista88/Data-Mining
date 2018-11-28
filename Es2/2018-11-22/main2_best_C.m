@@ -61,7 +61,7 @@ for C = logspace(-4,3,30)
       C_best = C;
    end
 end
-%class_err_best
+
 C = C_best;
 Q = diag(Y)*(X*X')*diag(Y);
 [~,err_,alpha,b] = SMO2_ab(n,Q,-ones(n,1),Y',zeros(n,1),C*ones(n,1),...
@@ -90,13 +90,4 @@ plot(X(alpha==C,1),X(alpha==C,2),'sy','MarkerSize',10)
 dualcost = -(.5*alpha'*Q*alpha-ones(n,1)'*alpha);
 primalcost = .5*w'*w+C*sum(max(0,1-diag(Y)*(X*w+b))); 
 dualitygap = abs(dualcost-primalcost);
-title(sprintf('DG: %e   C_{best}: %e',dualitygap,C_best))
-
-
-
-
-
-
-
-
-
+title(sprintf('DG: %e   C_{best}: %e   err_{best}: %e',dualitygap,C_best,err_best))
