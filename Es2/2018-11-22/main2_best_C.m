@@ -24,7 +24,7 @@ plot(X(Y>0,1),X(Y>0,2),'or','MarkerSize',10)
 nl = round(.7 * n);
 nv = n - nl;
 
-class_err = zeros(30,1);
+err = zeros(30,1);
 for k = 1:30
     % Divido in training set e validation set
     i  = randperm(n);
@@ -33,40 +33,39 @@ for k = 1:30
     j = 0;
     
     XL = X(il,:);
-    YL = Y(il,:);
+    YL = Y(il);
     XV = X(iv,:);
-    YV = Y(iv,:);
+    YV = Y(iv);
     
     for C = logspace(-4,3,30)
         j = j + 1;
         Q = diag(YL)*(XL*XL')*diag(YL);
-        [~,err,alpha,b] = SMO2_ab(nl,Q,-ones(nl,1),YL',zeros(nl,1),C*ones(nl,1),...
+        [~,err_,alpha,b] = SMO2_ab(nl,Q,-ones(nl,1),YL',zeros(nl,1),C*ones(nl,1),...
                                   1000000,.0001,zeros(nl,1));
-        if (err ~= 0)
+        if (err_ ~= 0)
             warning('Problem in SMO')
         end
         w = XL'*diag(YL)*alpha;
         
         YS = XV*w+b;
-        class_err(j) = class_err(j) + sum(YS ~= YV)/30;
+        err(j) = err(j) + sum(YS ~= YV)/30;
     end
 end
-
 j = 0;
-class_err_best = Inf;
+err_best = Inf;
 for C = logspace(-4,3,30)
    j = j + 1;
-   if (class_err(j) < class_err_best)
-      class_err_best = class_err(j);
+   if (err(j) < err_best)
+      err_best = err(j);
       C_best = C;
    end
 end
-
+%class_err_best
 C = C_best;
 Q = diag(Y)*(X*X')*diag(Y);
-[~,err,alpha,b] = SMO2_ab(n,Q,-ones(n,1),Y',zeros(n,1),C*ones(n,1),...
+[~,err_,alpha,b] = SMO2_ab(n,Q,-ones(n,1),Y',zeros(n,1),C*ones(n,1),...
                           1000000,.0001,zeros(n,1));
-if (err ~= 0)
+if (err_ ~= 0)
     warning('Problem in SMO')
 end
 w = X'*diag(Y)*alpha;
