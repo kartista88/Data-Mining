@@ -23,7 +23,6 @@ plot(X(Y>0,1),X(Y>0,2),'or','MarkerSize',10)
 
 nl = round(.7 * n);
 nv = n - nl;
-
 err = zeros(30,1);
 for k = 1:30
     % Divido in training set e validation set
@@ -48,6 +47,8 @@ for k = 1:30
         w = XL'*diag(YL)*alpha;
         
         YS = XV*w+b;
+        YS(YS>=0) = 1;
+        YS(YS<0)  = -1;
         err(j) = err(j) + sum(YS ~= YV)/30;
     end
 end
