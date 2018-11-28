@@ -56,7 +56,7 @@ j = 0;
 err_best = Inf;
 for C = logspace(-4,3,30)
    j = j + 1;
-   if (err(j) < err_best)
+   if (err(j) <= err_best)
       err_best = err(j);
       C_best = C;
    end
