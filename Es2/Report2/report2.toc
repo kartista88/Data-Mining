@@ -1,3 +1,0 @@
-\contentsline {chapter}{First exercise}{2}
-\contentsline {chapter}{Second exercise}{3}
-\contentsline {chapter}{Third exercise}{4}
