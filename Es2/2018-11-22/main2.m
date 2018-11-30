@@ -34,12 +34,20 @@ plot(X(Y>0,1),X(Y>0,2),'or','MarkerSize',10)
 
 %%
 % small C -> planes less obliquous
-% lasrge C -> i care about have a small error not great margin
+% large C -> i care about have a small error not great margin
 
 C = 1;
 Q = diag(Y)*(X*X')*diag(Y);
 % min_alpha .5 * alpha' Q alpha - 1 alpha  Q_ij = y_i y_j x'_i x_j
 % s.t. y'*alpha = 0, 0 <= alpha <= C
+% 
+% C = 1/(2*lambda)
+% C small -> do not overfit the data
+% lambda = Inf -> do not overfit the data
+% C = Inf -> overfit the data
+% lambda = 0 -> overfit the data
+%
+%%%%%%% riascolta da 1 ora 18 min %%%%%%%%
 %
 % Note that in this algo i should have put y'alfa = 0
 [~,err,alpha,b] = SMO2_ab(n,Q,-ones(n,1),Y',zeros(n,1),C*ones(n,1),...
