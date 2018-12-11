@@ -78,6 +78,7 @@ separator = [-b/w(1), -b/w(2)];
 plot(XL(YL == 1, 1), XL(YL == 1, 2), 'ob');
 plot(XL(YL == -1, 1), XL(YL == -1, 2), 'or');
 plot([0,separator(2)],[separator(1),0], 'g');   % separator line
+title('Iris separator');
 xlim([0 1]); ylim([0 1]);                       % axes are limited between 0 and 1
 
 

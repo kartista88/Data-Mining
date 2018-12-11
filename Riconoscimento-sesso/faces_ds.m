@@ -55,7 +55,7 @@ err = sum(YV.*fV <= 0);
 %% Show the weigths as image
 figure
 subplot(1,2,1);
-imshow(mat2gray(reshape(abs(w'), [60,60])')); title('ABS');
+imshow(mat2gray(reshape(abs(w'), [60,60])')); title('Immagine dei pesi');
 subplot(1,2,2);
 imshow(mat2gray(reshape(w', [60,60])')); title('No ABS');
 
