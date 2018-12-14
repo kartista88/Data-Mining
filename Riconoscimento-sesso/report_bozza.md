@@ -27,15 +27,19 @@ _plot del separatore per __iris___
 
 ## __Faces__ dataset
 Rappresento come immagine i pesi (_w_) risultanti dall'algoritmo.  
+As we can see, it looks like a face: we can distinguish the traits of the eyes, nose and mouth. The darkest zones are the most relevant for the classification, since the corresponding weights are larger there. It’s like this image is used as a filter, to be applied to the image we want to process.  
 _Immagine dei pesi_  
 Inoltre mostro l'immagine di un maschio e una femmina come esempio.
 _Immagine maschio e femmina_  
 
 ***
+### Valutazioni su numero di errori e numero di iterazioni
 
-Aggiungere commenti su:
-1. Numero di iterazioni dell'algoritmo
-2. Valutazioni sul numero di iterazioni con punti di partenza diversi-> numero cooerente col teorema?
-3. Discutere cosa si può dedurre dall'immagine dei pesi
-4. Discutere l'errore in faces e sonar, valutando diversi punti di partenza
+Rieseguento molteplici volte l'algoritmo sul dataset delle facce, dividendo il dataset iniziale a metà tra Learning Set e Validation Set otteniamo una media di iterazione di: 18524,846 e una media di errori pari a: 6,46.
+Pertanto otteniamo in media un rapporto tra classificazione corretta ed errata di: 38,54/45 traducibile in 85,6% di accuratezza.
 
+Ripetendo simili procedure per il dataset sonar otteniamo una percentuale di classificazioni accurate del 72,8%.
+
+Aumentando la dimensione del training set notiamo un incremento nella precisone.
+
+Per ottenere risultati migliori in termini di errore dovremmo disporre di dataset maggiori.
