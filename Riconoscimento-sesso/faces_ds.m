@@ -30,9 +30,6 @@ b_init = b;
 f = (w*XL')' + b;
 err = sum(YL.*f <= 0);
 
-errors = [];
-iterations = [];
-
 %% Learning loop
 it = 0;
 i = 1;
@@ -51,13 +48,9 @@ while err > 0
     it = it + 1;
 end
 
-%iterations = [iterations it];
-
 %% Validation
 fV = (w*XV')' + b;
 errV = sum(YV.*fV <= 0);
-%errors = [errors errV];
-
 
 %% Show the weigths as image
 figure
