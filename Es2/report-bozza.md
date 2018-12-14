@@ -17,11 +17,15 @@ Per mediare il risultato e minimizzare l'influenza della varianza ripetiamo ques
 // Grafico
 
 ## 2018-11-22 SVM
-Definiamo un altro problema di classificazione che trattiamo questa volta con SVM.
+Definiamo un altro problema di classificazione che trattiamo questa volta con $SVM$.
 
-Il termine di regolarizzazione che possiamo ottimizzare questa volta è il parametro C, tenendo conto che se usiamo valori bassi di C allora la soluzione sarà smooth, mentre se usiamo valori grandi per C ci interessiamo solo a minimizzare l'errore e avremo una soluzione più complicata.
+In questo scenario il parametro da ottimizare è C: questo parametro può essere interpretato come l'inverso di $\lambda$, quindi per $C$ piccoli avremo un soluzione più smooth, mentre per $C$ grandi ci preoccuperemo solo di minimizzare l'errore.
+Per fare ciò, al solito, dividiamo il dataset in due parti: Training Set e Validation Set e eseguiamo un ciclo sulla variabile C, memorizzando l'errore definito come numero di classificazioni sbagliate. Per minimizzare la varianza ripetiamo il procedimento k volte.
+Una volta fatto questo cerchiamo nel vettore di errori quello con il minor numero di classificazioni sbagliate, il C corrispondente sarà C_{best}.
 
-Per ottimizzare il termine su C cicliamo su di esso per vari valori per trovare il vettore \alfa che più sparso, cioè con il maggior numero di zeri, e il modello w corrsipondente. A questo punto con il valore ottimo di C e il rispettivo modello plottiamo la soluzione.
+Ripetiamo, a questo punto il calcolo eseguito prima utilizzando $C_{best}$ al posto di $C$ e plottiamo la soluzione.
+
+Nei due grafici sottostanti mostriamo due casi: nel primo, a parità di errore, scegliamo il $C_{best}$ più basso, quindi la soluzione sarà più semplice, ma meno precisa: ci saranno molti punti con $0<\alpha_i<=C$ (avremo un $\underline{w}$ basso), mentre nel secondo a parità di errore favoriamo il $C_{best}$ maggiore, quindi la soluzione sarà più complessa, ma con $\alpha$ più sparso.
 
 // Grafico
 

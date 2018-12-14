@@ -60,6 +60,7 @@ for depth = 1:10
       depth_best = depth;
    end
 end
+err
 
 % I re-compute the tree T using the best depth and all data
 T = DT_learn(X,Y,depth_best);
