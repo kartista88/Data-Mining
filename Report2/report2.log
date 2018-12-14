@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.23)  28 NOV 2018 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.23)  30 NOV 2018 11:16
 entering extended mode
 **./report2.tex
 (report2.tex
@@ -959,9 +959,6 @@ LaTeX Warning: Label `fig:regression function' multiply defined.
 
 LaTeX Warning: Label `fig:regression function' multiply defined.
 
-
-LaTeX Warning: Label `fig:regression function' multiply defined.
-
 )
 \openout1 = `report2.aux'.
 
@@ -1073,24 +1070,29 @@ Package pdftex.def Info: i1.png  used on input line 10.
 ) [2
 
  <./i1.png>] (chapters/es_22.tex
-<i2.png, id=23, 505.89pt x 399.4925pt>
-File: i2.png Graphic file (type png)
-<use i2.png>
-Package pdftex.def Info: i2.png  used on input line 8.
-(pdftex.def)             Requested size: 250.24199pt x 197.61223pt.
+<i6.png, id=23, 321.2pt x 263.98625pt>
+File: i6.png Graphic file (type png)
+<use i6.png>
+Package pdftex.def Info: i6.png  used on input line 11.
+(pdftex.def)             Requested size: 200.19054pt x 164.53581pt.
+<i7.png, id=24, 495.8525pt x 411.5375pt>
+File: i7.png Graphic file (type png)
+<use i7.png>
+Package pdftex.def Info: i7.png  used on input line 13.
+(pdftex.def)             Requested size: 200.19054pt x 166.15057pt.
 )
 [3
 
- <./i2.png>] (chapters/es_23.tex
+ <./i6.png> <./i7.png>] (chapters/es_23.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
-<i3.png, id=28, 490.83376pt x 406.51875pt>
+<i3.png, id=33, 493.845pt x 407.5225pt>
 File: i3.png Graphic file (type png)
 <use i3.png>
 Package pdftex.def Info: i3.png  used on input line 9.
-(pdftex.def)             Requested size: 250.24199pt x 207.25357pt.
+(pdftex.def)             Requested size: 250.24199pt x 206.49678pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
@@ -1111,7 +1113,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-<i4.png, id=29, 596.2275pt x 477.785pt>
+<i4.png, id=34, 596.2275pt x 477.785pt>
 File: i4.png Graphic file (type png)
 <use i4.png>
 Package pdftex.def Info: i4.png  used on input line 19.
@@ -1133,23 +1135,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26906 strings out of 492970
- 561310 string characters out of 3126593
+ 26915 strings out of 492970
+ 560969 string characters out of 3126593
  607077 words of memory out of 3000000
- 30395 multiletter control sequences out of 15000+200000
- 539895 words of font info for 54 fonts, out of 3000000 for 9000
+ 30402 multiletter control sequences out of 15000+200000
+ 540247 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,67p,829b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,67p,829b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Mauro/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mauro/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Maur
-o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on report2.pdf (7 pages, 1521218 bytes).
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Mauro/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Maur
+o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr17.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Users/Mauro/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti8.pfb>
+Output written on report2.pdf (7 pages, 1722225 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
