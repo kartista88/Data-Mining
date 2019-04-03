@@ -1,0 +1,7 @@
+https://www.dataquest.io/blog/sci-kit-learn-tutorial/
+
+https://www.analyticsindiamag.com/7-types-classification-algorithms/
+
+https://scikit-learn.org/stable/tutorial/basic/tutorial.html
+
+https://www.dataquest.io/blog/sci-kit-learn-tutorial/
