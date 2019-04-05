@@ -5,3 +5,6 @@ https://www.analyticsindiamag.com/7-types-classification-algorithms/
 https://scikit-learn.org/stable/tutorial/basic/tutorial.html
 
 https://www.dataquest.io/blog/sci-kit-learn-tutorial/
+
+Heart Disease
+https://www.kaggle.com/kralmachine/analyzing-the-heart-disease
