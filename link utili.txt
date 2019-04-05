@@ -8,3 +8,6 @@ https://www.dataquest.io/blog/sci-kit-learn-tutorial/
 
 Heart Disease
 https://www.kaggle.com/kralmachine/analyzing-the-heart-disease
+
+
+https://www.kaggle.com/kralmachine/seaborn-tutorial-for-beginners
