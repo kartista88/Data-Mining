@@ -11,3 +11,6 @@ https://www.kaggle.com/kralmachine/analyzing-the-heart-disease
 
 
 https://www.kaggle.com/kralmachine/seaborn-tutorial-for-beginners
+
+SVM Python
+https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/
