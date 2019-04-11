@@ -11,3 +11,6 @@ https://www.kaggle.com/kralmachine/analyzing-the-heart-disease
 
 
 https://www.kaggle.com/kralmachine/seaborn-tutorial-for-beginners
+
+Come funiona una SVM:
+https://stats.stackexchange.com/questions/23391/how-does-a-support-vector-machine-svm-work
