@@ -12,5 +12,10 @@ https://www.kaggle.com/kralmachine/analyzing-the-heart-disease
 
 https://www.kaggle.com/kralmachine/seaborn-tutorial-for-beginners
 
+<<<<<<< HEAD
 SVM Python
 https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/
+=======
+Come funiona una SVM:
+https://stats.stackexchange.com/questions/23391/how-does-a-support-vector-machine-svm-work
+>>>>>>> cd0693d8af5b31403ae27a118b03e857aaf6212a
