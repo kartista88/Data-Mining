@@ -19,3 +19,6 @@ https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn
 Come funiona una SVM:
 https://stats.stackexchange.com/questions/23391/how-does-a-support-vector-machine-svm-work
 >>>>>>> cd0693d8af5b31403ae27a118b03e857aaf6212a
+
+Librearia Python SVM
+https://scikit-learn.org/stable/
